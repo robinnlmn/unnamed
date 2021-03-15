@@ -1,0 +1,143 @@
+.home {
+    background-color: #18191b;
+    height: 100vh;
+}
+
+.header {
+    background-color: #242526;
+    color: white;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.header > h1 {
+    padding: 15px;
+    margin-left: 25px;
+}
+
+.home__logo {
+    max-width: 125px;
+    margin-left: 15px;
+    object-fit: contain;
+}
+
+.chats {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+}
+
+.searchChats > input {
+    color: white;
+}
+
+.searchChats {
+    margin-right: 25px;
+}
+
+.createNewChat {
+    transform: scale(1.5);
+    margin-top: 163px;
+    margin-bottom: 163px;
+    margin-left: 165px;
+}
+
+.post__signUp {
+    display: flex;
+    flex-direction: column;
+}
+
+.posts__loginContainer {
+    display: flex;
+}
+
+.posts__loginContainer > h2 {
+    margin-right: 10px;
+}
+
+.posts__loginContainer > button {
+    color: white;
+    font-weight: 600;
+    background-color: black;
+    margin-right: 10px;
+    transition: 1.5s;
+}
+
+.posts__loginContainer > button:hover {
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    margin-right: 10px;
+    transition: 1.5s;
+}
+
+.post__signUp > button {
+    color: white;
+}
+
+.post__signUp > h4 {
+    color: white;
+    margin-bottom: 4px;
+}
+
+.needToLogin {
+    border-radius: 15px;
+    margin-top: 25px;
+    background-color: #242526;
+    max-width: 300px;
+    color: white;
+    margin-left: 25px;
+}
+
+.createNewChat > h2 {
+    margin-right: 15px;
+}
+
+.loginPopUp {
+    margin-top: 175px;
+    margin-left: 55px;
+}
+
+.icon {
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.icon > h3 {
+    margin-right: 5px;
+}
+
+.icon {
+    top: 50%;
+    left: 50%;
+}
+
+.icon > input {
+    
+}
+
+.imagePicker {
+    font-size: 16;
+    background: white;
+    width: 350px;
+    border-radius: 50px;
+}
+
+::-webkit-file-upload-button{
+    color: white;
+    background: #206a5d;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    box-shadow:1px 0 1px 1px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+::-webkit-file-upload-button:hover {
+    background-color: #438a5e;
+}

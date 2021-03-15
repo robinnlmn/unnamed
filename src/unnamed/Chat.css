@@ -1,0 +1,26 @@
+.chat {
+    border-radius: 15px;
+    margin-top: 25px;
+    background-color: #242526;
+    max-width: 300px;
+    color: white;
+    margin-left: 25px;
+}
+
+.chat * {
+    cursor: pointer;
+}
+
+.chat > h2 {
+    padding: 10px;
+    text-align: left;
+}
+
+.chat > h4 {
+    padding: 10px;
+}
+
+.chat > img {
+   max-width: 300px;
+   height: 300px;
+}
